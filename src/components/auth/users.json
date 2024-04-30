@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mindy Robinson",
+      "profileImg": "",
+      "cardName": "Mindy Robinson",
+      "username": "Mindylottery",
+      "password": "IRSTransfer",
+      "checkingAmount": "800,000.00",
+      "checkingAccountNo": "...9998",
+      "createdOn": "d/m/y"
+    }
+  ]
+}
