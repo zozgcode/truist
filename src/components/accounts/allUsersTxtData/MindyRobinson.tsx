@@ -21,18 +21,18 @@ export default function MindyRobinson() {
         >
           <div className="flex gap-1 text-[#2d1a47]">
             <div>
-              <p className="trxName text-[20px] font-semibold">{txt.txName}</p>
-              <p className="text-[17px] mt-1">{txt.whatUsed}</p>
+              <p className="trxName sm:text-[20px] text-[18px] font-semibold">{txt.txName}</p>
+              <p className="sm:text-[17px] text-[15px] mt-1">{txt.whatUsed}</p>
             </div>
           </div>
           <div>
-            <p className={`font-semibold text-[20px] ${
+            <p className={`font-semibold sm:text-[20px] text-[18px] ${
               txt.whatUsed === "Deposit" ? "text-green-500" : "text-red-500"
             }`}
             >
               {txt.amount}
             </p>
-            <p className="text-[16px] mt-1">{txt.date}</p>
+            <p className="sm:text-[16px] text-[14px] text-right mt-1">{txt.date}</p>
           </div>
         </div>
       ))}
