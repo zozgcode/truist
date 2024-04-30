@@ -6,8 +6,8 @@ import ProtectedRoute from "../../ProtectedRoute";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Credit Card, Mortgage, Banking, Auto",
-  description: "Credit Card, Mortgage, Banking, Auto",
+  title: "Truist Online Login | Truist",
+  description: "Truist Online Login | Truist",
 };
 
 export default function RootLayout({
