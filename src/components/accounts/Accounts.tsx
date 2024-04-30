@@ -45,7 +45,7 @@ export default function Dashboard() {
           <div className="p-5 pb-10 bg-[#2d1a47]">
             <header className="py-4 mb-6 text-white flex items-center justify-center w-full p-5">
               <div className="flex items-end justify-end w-[55%]">
-                <h2 className="text-[24px]">Home</h2>
+                <h2 className="sm:text-[24px] text-[19px]">Home</h2>
               </div>
               <div className="flex items-end justify-end w-[45%] relative">
                 <FaRegCircleUser className="text-[32px]" onClick={toggle} />
